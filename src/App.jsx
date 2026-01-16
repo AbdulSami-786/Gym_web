@@ -77,13 +77,13 @@ const GymWebsite = () => {
   ];
 
   // Handle cursor follow
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setCursorPos({ x: e.clientX, y: e.clientY });
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
+  // useEffect(() => {
+  //   const handleMouseMove = (e) => {
+  //     setCursorPos({ x: e.clientX, y: e.clientY });
+  //   };
+  //   window.addEventListener('mousemove', handleMouseMove);
+  //   return () => window.removeEventListener('mousemove', handleMouseMove);
+  // }, []);
 
   // Handle scroll animations
   useEffect(() => {
